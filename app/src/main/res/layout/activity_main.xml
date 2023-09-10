@@ -38,9 +38,6 @@
         app:layout_constraintVertical_bias="0.964" />
 
     <!--    Mode Switcher Button-->
-
-    <!--    Input TextBox-->
-
     <Button
         android:id="@+id/switcher"
         android:layout_width="94dp"
@@ -53,6 +50,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.333" />
 
+    <!--    Input TextBox-->
     <EditText
         android:id="@+id/editText"
         android:layout_width="wrap_content"
@@ -111,6 +109,7 @@
         app:layout_constraintVertical_bias="0.152"
         app:srcCompat="@drawable/baseline_arrow_right_alt_24" />
 
+<!--    Clear Button-->
     <Button
         android:id="@+id/clear"
         android:layout_width="wrap_content"
