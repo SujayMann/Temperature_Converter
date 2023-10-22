@@ -88,6 +88,10 @@ public class MainActivity extends AppCompatActivity {
             }
             else{
                 String s = editText.getText().toString();
+                if(s.equals(".") || s.equals("-")){
+                    resultText.setText("Invalid input");
+                    return;
+                }
                 double temperature = Double.parseDouble(s);
                 // Celsius to Fahrenheit mode
                 if(setting[0]==0) {
